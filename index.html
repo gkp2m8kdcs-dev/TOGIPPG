@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOGIPPG — Cross-Domain Multiphysics Dimensionless Number Lab</title>
+  <meta name="description" content="Compute, classify, and visualize 20+ dimensionless numbers across fluid dynamics, heat transfer, mass transfer, momentum, multiphase flow, and electromagnetics. 100% off-line." />
+  <meta name="theme-color" content="#050810" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg"></div>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="index.html" class="brand">
+        <span class="dot"></span>
+        TOGIPPG
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#numbers">Numbers</a>
+        <a href="#domains">Domains</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Hero -->
+    <section class="hero">
+      <span class="kicker">iOS · Off-line · Privacy-first</span>
+      <h1 class="headline">Cross-Domain<br />Multiphysics Lab</h1>
+      <p class="lede">
+        TOGIPPG is a precision tool for computing, classifying, and visualizing
+        <strong>20+ dimensionless numbers</strong> across fluid dynamics, heat
+        transfer, mass transfer, momentum, multiphase flow, and electromagnetics —
+        everything runs locally on your device.
+      </p>
+      <a class="cta" href="#features">
+        Explore the App
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+      </a>
+
+      <div class="stats">
+        <div class="stat"><div class="v">20+</div><div class="l">Numbers</div></div>
+        <div class="stat"><div class="v">6</div><div class="l">Domains</div></div>
+        <div class="stat"><div class="v">5</div><div class="l">Charts</div></div>
+        <div class="stat"><div class="v">100%</div><div class="l">Private</div></div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <h2>Built for engineers, students & researchers</h2>
+      <p class="subhead">
+        Every formula, every threshold band, and every chart is built directly into the app —
+        no server, no account, no tracking.
+      </p>
+
+      <div class="grid cols-3">
+        <div class="card">
+          <h3><span class="icon">ƒ</span> Compute</h3>
+          <p>Plug in physical properties and get instant dimensionless values with logarithmic gauges and side-by-side comparison.</p>
+        </div>
+        <div class="card">
+          <h3><span class="icon amber">Σ</span> Classify</h3>
+          <p>Custom regime classifier with threshold bands — turbulent vs. laminar, slip vs. continuum, conduction vs. convection, and more.</p>
+        </div>
+        <div class="card">
+          <h3><span class="icon magenta">◉</span> Visualize</h3>
+          <p>Bar, line, radar, donut, and log gauges let you inspect one regime or compare many at a glance.</p>
+        </div>
+        <div class="card">
+          <h3><span class="icon lime">⏱</span> History</h3>
+          <p>Every computation is saved locally. Browse, revisit, and export past results directly from your device.</p>
+        </div>
+        <div class="card">
+          <h3><span class="icon">⌬</span> Derive</h3>
+          <p>Step-by-step algebraic derivations show how each dimensionless group is constructed from the underlying physics.</p>
+        </div>
+        <div class="card">
+          <h3><span class="icon amber">⌗</span> Off-line</h3>
+          <p>The entire library — formulas, thresholds, materials — is bundled in the binary. No internet required.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Numbers -->
+    <section id="numbers">
+      <h2>Numbers inside the library</h2>
+      <p class="subhead">
+        The full library spans six physical regimes. Tap any number inside the app
+        to see its formula, derivation, classification, and charts.
+      </p>
+
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Fluid &amp; Thermal</h3>
+          <div class="pills">
+            <span class="pill fluid">Reynolds · Re</span>
+            <span class="pill thermal">Prandtl · Pr</span>
+            <span class="pill thermal">Nusselt · Nu</span>
+            <span class="pill thermal">Biot · Bi</span>
+            <span class="pill thermal">Fourier · Fo</span>
+            <span class="pill thermal">Rayleigh · Ra</span>
+            <span class="pill thermal">Grashof · Gr</span>
+            <span class="pill thermal">Eckert · Ec</span>
+            <span class="pill thermal">Péclet · Pe</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Mass &amp; Momentum</h3>
+          <div class="pills">
+            <span class="pill mass">Sherwood · Sh</span>
+            <span class="pill mass">Schmidt · Sc</span>
+            <span class="pill mass">Lewis · Le</span>
+            <span class="pill momentum">Mach · Ma</span>
+            <span class="pill momentum">Knudsen · Kn</span>
+            <span class="pill momentum">Froude · Fr</span>
+            <span class="pill momentum">Weber · We</span>
+            <span class="pill momentum">Strouhal · St</span>
+            <span class="pill momentum">Damköhler · Da</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Multiphase &amp; EM</h3>
+          <div class="pills">
+            <span class="pill flow">Capillary · Ca</span>
+            <span class="pill flow">Eötvös · Eo</span>
+            <span class="pill flow">Morton · Mo</span>
+            <span class="pill flow">Bond · Bo</span>
+            <span class="pill electromag">Magnetic Re · Rm</span>
+            <span class="pill electromag">Hartmann · Ha</span>
+            <span class="pill electromag">Alfvén · Al</span>
+            <span class="pill electromag">Lundquist · Lu</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>More inside</h3>
+          <div class="pills">
+            <span class="pill">Drag · Cd</span>
+            <span class="pill">Lift · Cl</span>
+            <span class="pill">Stokes · Stk</span>
+            <span class="pill">Bejan · Be</span>
+            <span class="pill">Carnot · η</span>
+            <span class="pill">+ custom groups</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Domains -->
+    <section id="domains">
+      <h2>Six physical regimes</h2>
+      <p class="subhead">
+        Each domain ships with curated input presets, sensible defaults, and
+        regime-specific charts and thresholds.
+      </p>
+
+      <div class="grid cols-3">
+        <div class="card"><h3><span class="icon">≈</span> Fluid dynamics</h3><p>Reynolds, Froude, Euler, and related momentum ratios.</p></div>
+        <div class="card"><h3><span class="icon amber">Δ</span> Heat transfer</h3><p>Nusselt, Prandtl, Biot, Fourier, Rayleigh, Grashof, Eckert.</p></div>
+        <div class="card"><h3><span class="icon lime">◌</span> Mass transfer</h3><p>Sherwood, Schmidt, Lewis, plus boundary-layer analogies.</p></div>
+        <div class="card"><h3><span class="icon magenta">▸</span> Momentum</h3><p>Mach, Knudsen, Strouhal, Weber — compressibility &amp; waves.</p></div>
+        <div class="card"><h3><span class="icon">⚭</span> Multiphase flow</h3><p>Capillary, Eötvös, Morton, Bond — drops, bubbles, films.</p></div>
+        <div class="card"><h3><span class="icon amber">∮</span> Electromagnetics</h3><p>Magnetic Reynolds, Hartmann, Alfvén, Lundquist.</p></div>
+      </div>
+    </section>
+
+    <!-- Privacy callout -->
+    <section>
+      <div class="card" style="display:flex; gap:18px; align-items:flex-start; flex-wrap:wrap;">
+        <div class="icon lime" style="width:48px; height:48px; font-size:22px;">✓</div>
+        <div style="flex:1; min-width:240px;">
+          <h3 style="margin-top:0;">Your data stays on this device</h3>
+          <p>
+            TOGIPPG runs entirely off-line. There are no analytics SDKs,
+            no tracking pixels, and no third-party ad networks. Inputs,
+            computed values, and history records are stored locally and
+            can be cleared at any time. Read the full
+            <a href="privacy.html">Privacy Policy</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap foot-row">
+      <div>© 2026 TOGIPPG · Cross-Domain Multiphysics Lab · Off-line only · No data collected</div>
+      <div class="foot-links">
+        <a href="support.html">Support</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
